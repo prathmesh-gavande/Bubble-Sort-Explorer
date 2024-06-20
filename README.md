@@ -1,6 +1,5 @@
 # Bubble Sort Visualization
 
-![Bubble Sort Visualization](bubble-sort-demo.gif)
 
 ## Overview
 
