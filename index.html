@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort Visualization</title>
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <br>
+            <h1>Bubble Sort</h1>
+            <br>
+            <p>Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items, and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.</p>
+            <br>
+            <h3>Time Complexity :</h3>
+            <ul>
+                <li>Best: O(n)</li>
+                <li>Average: O(n<sup>2</sup>)</li>
+                <li>Worst: O(n<sup>2</sup>)</li>
+            </ul>
+            <br>
+            <h3>Algorithm :</h3>
+            <ol>
+                <li>Iterate from 0 to n-1:</li>
+                <li>For each iteration, iterate from 0 to n-i-1:</li>
+                <li>Compare the current element with the next element.</li>
+                <li>If the current element is greater, swap them.</li>
+                <li>Repeat the process until the array is sorted.</li>
+            </ol>
+            <p>For more information, visit <a href="https://en.wikipedia.org/wiki/Bubble_sort" target="_blank">Wikipedia's Bubble Sort page</a>.</p>
+        </div>
+
+        <div class="visualization">
+            <h1>Visualization</h1>
+            <div id="array-container"></div>
+            <div class="buttons">
+                <button id="sort-btn">Start Sorting</button>
+                <button id="stop-btn">Stop Sorting</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div>
+            <p>Designed and Developed by @<a href="https://github.com/prathmesh-gavande" target="_blank">Prathmesh Gavande</a>.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
